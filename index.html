@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Burger King</title>
+        <link rel="icon" href="./images/fav.png" type="image/gif" sizes="80x80">
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<meta name="viewport" content="width=device-width" initial-scale="1.0" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />		
+		<script src="js/script.js" type="text/javascript" defer></script>
+	</head>
+	<body>
+        <header>
+            <div class="header-content">
+             <div class="left">
+                 <h1>burger<span>king</span></h1>
+             </div>
+             <div class="right">
+                 <ul>
+                     <li><a href="index.html">home</a></li>
+                     <li><a href="about.html">about</a></li>
+                     <li><a href="feature.html">feature</a></li>
+                     <li><a href="index.html">chef</a></li>
+                     <li><a href="menu.html">menu</a></li>
+                     <li><a href="booking.html">booking</a></li>
+                     <li class="dropdown">
+                            <a href="#">pages</a>
+                                <i class="fas fa-sort-down"></i>
+                                 <div class="drop-content">
+                                    <a href="page-grid.html">blog grid</a>
+                                    <a href="page-details.html">blog detail</a>
+                                </div>
+                    </li>
+                     <li>
+                         <a href="contact.html">contact</a>
+                    </li>
+                 </ul>
+             </div>
+             <div class="open-btn-container">
+                <span class="fas fa-hamburger"></span>
+             </div>
+            </div>
+         </header>
+
+         <div class="mobile-menu">
+            <i class="fas fa-times-circle"></i>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="feature.html">feature</a></li>
+                <li><a href="index.html">chef</a></li>
+                <li><a href="menu.html">menu</a></li>
+                <li><a href="booking.html">booking</a></li>
+                <li class="dropdown">
+                    <a href="#">pages</a>
+                        <i class="fas fa-sort-down"></i>
+                        <div class="drop-content">
+                            <a href="page-grid.html">blog grid</a>
+                            <a href="page-details.html">blog detail</a>
+                        </div>
+                </li>
+                <li>
+                    <a href="contact.html">contact</a>
+                </li>
+            </ul>
+         </div>
+
+		<section id="home">
+            <section class="wrapper">
+                <section class="spotlight">
+                    <div class="home-container">
+                        <h1>world's <span>best</span> chef</h1>
+                        <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ex necessitatibus distinctio ipsam earum est in assumenda.</p>
+                        <div class="home-buttons">
+                            <a href="#" class="button">view menu</a>
+                            <a href="#" class="button">book table</a>
+                        </div>
+                    </div>
+                </section> <!-- ( #home > .wrapper > .spotlight) -->
+            </section> <!-- ( #home > .wrapper ) -->
+        </section> <!-- ( #home ) -->
+
+        <div class="scroll-top">
+            <a href="#home" class="scroll-btn">
+                <i class="fas fa-chevron-up" ></i>
+            </a>
+        </div>
+
+        <section id="booking">
+            <section class="wrapper">
+                <div class="left">
+                    <span>book a table</span>
+                    <h3>book your table for private dinners & happy hours</h3>
+                    <p>lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis obcaecati voluptates ipsum voluptatum illo reprehenderit animi placeat consequatur laudantium? Sunt tenetur</p>
+                    <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum iure, laborum, aliquam nam libero aperiam maxime perferendis dolor delectus optio sapiente tenetur exercitationem cum fugiat modi saepe minima explicabo numquam</p>
+                </div>
+                <div class="right">
+                    <form action="">
+                        <div class="input-item">
+                            <input type="text" placeholder="name">
+                            <i class="far fa-user"></i>
+                        </div>
+                        <div class="input-item">
+                            <input type="email" placeholder="email">
+                             <i class="far fa-envelope"></i>
+                        </div>
+                        <div class="input-item">
+                            <input type="number" placeholder="mobile">
+                             <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="input-item">
+                            <input type="text" placeholder="date">
+                            <i class="far fa-calendar-times"></i>
+                        </div>
+                        <div class="input-item">
+                            <input type="text" placeholder="time">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <select name="guest" id="guest-select">
+                            <option value="guest">guest</option>
+                        </select>
+                        <button type="button">book Now</button>
+                    </form>
+                </div>
+            </section><!-- ( #booking > .wrapper) -->
+        </section><!-- ( #booking ) -->
+
+        <section id="about">
+            <section class="wrapper">
+                <div class="left">
+                    <a href="#">
+                        <img src="./images/about.jpg" alt="Image" />
+                    </a>
+                    <div class="play-btn-container">
+                        <a href="#" class="play-button"></a>
+                    </div>
+                </div>
+                <div class="right">
+                    <span>about us</span>
+                    <h3>cooking since 1990</h3>
+                    <p>lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur explicabo consequuntur, perferendis eum itaque magni earum soluta ratione repudiandae magnam qui, natus ducimus autem libero tempora voluptatibus inventore consequatur.</p>
+                    <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo hic nesciunt tempora, fugiat id nostrum, cum nisi quisquam quibusdam cumque, autem praesentium iusto consequatur minus deleniti nihil repudiandae maiores impedit ducimus cupiditate.</p>
+                    <a href="#about" class="button">book a table</a>
+                </div>
+            </section><!-- ( #about > .wrapper ) -->
+        </section><!-- ( #about ) -->
+
+        <section id="features">
+            <section class="wrapper">
+                <div class="left">
+                    <span>why choose us</span>
+                    <h3>our key features</h3>
+                    <div class="img-container">
+                        <img src="./images/feature-1.jpg" alt="Image" />
+                        <img src="./images/feature-2.jpg" alt="Image" />
+                        <img src="./images/feature-3.jpg" alt="Image" />
+                        <img src="./images/feature-4.jpg" alt="Image" />
+                    </div>
+                    <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ut odit rerum earum. Quam ratione recusandae animi quidem harum voluptatem soluta eum porro sed. Commodi laudantium porro error voluptatem et.</p>
+                    <a href="#" class="button">book a table</a>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>
+                            <div class="icon-container">
+                                <a href="#">
+                                    <img src="./images/icons/003-chef.png" />
+                                </a>
+                            </div>
+                            <h3>world's best chef</h3>
+                            <p>lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, veniam sit! Distinctio corporis accusantium nesciunt.</p>
+                        </li>
+                        <li>
+                            <div class="icon-container">
+                                <a href="#">
+                                    <img src="./images/icons/004-vegetable.png" />
+                                </a>
+                            </div>
+                            <h3>natural ingredients</h3>
+                            <p>lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, veniam sit! Distinctio corporis accusantium nesciunt.</p>
+                        </li>
+                        <li>
+                            <div class="icon-container">
+                                <a href="#">
+                                    <img src="./images/icons/002-medal.png" />
+                                </a>
+                            </div>
+                            <h3>best quality products</h3>
+                            <p>lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, veniam sit! Distinctio corporis accusantium nesciunt.</p>
+                        </li>
+                        <li>
+                            <div class="icon-container">
+                                <a href="#">
+                                    <img src="./images/icons/001-roasted-chicken.png" />
+                                </a>
+                            </div>
+                            <h3>fresh vegitable & meet</h3>
+                            <p>lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, veniam sit! Distinctio corporis accusantium nesciunt.</p>
+                        </li>
+                        <li>
+                            <div class="icon-container">
+                                <a href="#">
+                                    <img src="./images/icons/005-package.png" />
+                                </a>
+                            </div>
+                            <h3>fastest door delivery</h3>
+                            <p>lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, veniam sit! Distinctio corporis accusantium nesciunt.</p>
+                        </li>
+                        <li>
+                            <div class="icon-container">
+                                <a href="#menu">
+                                    <img src="./images/icons/006-steak.png" />
+                                </a>
+                            </div>
+                            <h3>ground beef & low fat</h3>
+                            <p>lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, veniam sit! Distinctio corporis accusantium nesciunt.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section><!-- ( #feature > .wrapper ) -->
+        </section><!-- ( #feature ) -->
+
+        <section id="menu">
+            <section class="top">
+                <section class="wrapper">
+                    <div class="cards">
+                        <div class="card-item">
+                            <div class="img-container">
+                                <img src="./images/icons/burger.png" />
+                            </div>
+                            <h3>burgers</h3>
+                            <p>lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus aliquid ipsam laboriosam illum fuga molestias.</p>
+                            <a href="#" class="link">view more</a>
+                        </div>
+                        <div class="card-item">
+                            <div class="img-container">
+                                <img src="./images/icons/chocolate.png" />
+                            </div>
+                            <h3>snacks</h3>
+                            <p>lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus aliquid ipsam laboriosam illum fuga molestias.</p>
+                            <a href="#" class="link">view more</a>
+                        </div>
+                        <div class="card-item">
+                            <div class="img-container">
+                                <img src="./images/icons/soda.png" alt="Icon" />
+                            </div>
+                            <h3>beverages</h3>
+                            <p>lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus aliquid ipsam laboriosam illum fuga molestias.</p>
+                            <a href="#menu" class="link">view more</a>
+                        </div>
+                    </div>
+                </section><!-- ( #menu > .wrapper ) -->
+            </section><!-- ( #menu > .top ) -->
+            <section class="bottom">
+                <section class="wrapper">
+                    <div class="heading-section">
+                        <span>food menu</span>
+                        <h3>delicious food menu</h3>
+                        <div class="button-container">
+                            <a href="#menu" class="button">burgers</a>
+                            <a href="#menu" class="button">snacks</a>
+                            <a href="#menu" class="button">beverages</a>
+                        </div>
+                    </div>
+                    <div class="item-section">
+                        <div class="left">
+                            <div class="menu-items">
+                                <div class="left-img">
+                                    <img src="./images/menu-burger.jpg" alt="Image" />
+                                </div>
+                                <div class="name-price">
+                                    <h3>mini cheese burger</h3>
+                                    <span>$9.00</span>
+                                </div>
+                                <p>lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="menu-items">
+                                <div class="left-img">
+                                    <img src="./images/menu-burger.jpg" alt="Image" />
+                                </div>
+                                <div class="name-price">
+                                    <h3>mini cheese burger</h3>
+                                    <span>$9.00</span>
+                                </div>
+                                <p>lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="menu-items">
+                                <div class="left-img">
+                                    <img src="./images/menu-burger.jpg" alt="Image" />
+                                </div>
+                                <div class="name-price">
+                                    <h3>mini cheese burger</h3>
+                                    <span>$9.00</span>
+                                </div>
+                                <p>lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="menu-items">
+                                <div class="left-img">
+                                    <img src="./images/menu-burger.jpg" alt="Image" />
+                                </div>
+                                <div class="name-price">
+                                    <h3>mini cheese burger</h3>
+                                    <span>$9.00</span>
+                                </div>
+                                <p>lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="menu-items">
+                                <div class="left-img">
+                                    <img src="./images/menu-burger.jpg" alt="Image" />
+                                </div>
+                                <div class="name-price">
+                                    <h3>mini cheese burger</h3>
+                                    <span>$9.00</span>
+                                </div>
+                                <p>lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <img src="./images//menu-burger-img.jpg" alt="Image" />
+                        </div>
+                    </div>
+                </section><!-- ( #menu > .bottom > .wrapper) -->
+            </section><!-- ( #menu > .bottom) -->
+        </section><!-- ( #menu ) -->
+
+        <section id="chef">
+            <section class="wrapper">
+                <div class="top">
+                    <span>our team</span>
+                    <h3>our master chef</h3>
+                </div>
+                <div class="bottom">
+                    <div class="card">
+                        <div class='img-container'>
+                            <img src="./images/team-1.jpg" alt="Image">
+                        </div>
+                        <div class="social-icons">
+                            <span class="icon fab fa-twitter"></span>
+                            <span class="icon fab fa-facebook-f"></span>
+                            <span class="icon fab fa-linkedin"></span>
+                            <span class="icon fab fa-instagram"></span>
+                        </div>
+                        <div class="details">
+                            <h3>josh dunn</h3>
+                            <span>master chef</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class='img-container'>
+                            <img src="./images/team-2.jpg" alt="Image" />
+                        </div>
+                        <div class="social-icons">
+                            <span class="icon fab fa-twitter"></span>
+                            <span class="icon fab fa-facebook-f"></span>
+                            <span class="icon fab fa-linkedin"></span>
+                            <span class="icon fab fa-instagram"></span>
+                        </div>
+                        <div class="details">
+                            <h3>john doe</h3>
+                            <span>master chef</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class='img-container'>
+                            <img src="./images/team-3.jpg" alt="Image" />
+                        </div>
+                        <div class="social-icons">
+                            <span class="icon fab fa-twitter"></span>
+                            <span class="icon fab fa-facebook-f"></span>
+                            <span class="icon fab fa-linkedin"></span>
+                            <span class="icon fab fa-instagram"></span>
+                        </div>
+                        <div class="details">
+                            <h3>dylan adams</h3>
+                            <span>master chef</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class='img-container'>
+                            <img src="./images/team-4.jpg" alt="Image" />
+                        </div>
+                        <div class="social-icons">
+                            <span class="icon fab fa-twitter"></span>
+                            <span class="icon fab fa-facebook-f"></span>
+                            <span class="icon fab fa-linkedin"></span>
+                            <span class="icon fab fa-instagram"></span>
+                        </div>
+                        <div class="details">
+                            <h3>adam philps</h3>
+                            <span>ceo,co founder</span>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- ( #chef > .wrapper ) -->
+        </section><!-- ( #chef ) -->
+
+        <section id="clients">
+            <section class="wrapper">
+                <div class="slider">
+                    <div class="slide-item">
+                        <a href="#clients">
+                            <img src="./images/testimonial-1.jpg" alt="Image" />
+                        </a>
+                        <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ipsum ab harum distinctio non.</p>
+                        <h3>client name</h3>
+                        <span>profession</span>
+                    </div>
+                    <div class="slide-item">
+                        <a href="#clients">
+                            <img src="./images/testimonial-2.jpg" alt="Image" />
+                        </a>
+                        <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ipsum ab harum distinctio non.</p>
+                        <h3>client name</h3>
+                        <span>profession</span>
+                    </div>
+                    <div class="slide-item">
+                        <a href="#clients">
+                            <img src="./images/testimonial-3.jpg" alt="Image" />
+                        </a>
+                        <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ipsum ab harum distinctio non.</p>
+                        <h3>client name</h3>
+                        <span>profession</span>
+                    </div>
+                </div>
+                <div class="slider-buttons">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </section><!-- ( #clients > .wrapper ) -->
+        </section><!-- ( #clients ) -->
+
+        <section id='contact'>
+            <section class="wrapper">
+                <div class="top">
+                    <span>contact us</span>
+                    <h3>contact for any query</h3>
+                </div>
+                <div class="middle">
+                    <div class="contact-item">
+                        <span class="icon fas fa-map-marker"></span>
+                        <div class="details">
+                            <p>address</p>
+                            <p>123 street,NY,USA</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon fas fa-phone-alt"></span>
+                        <div class="details">
+                            <p>call us</p>
+                            <a href="tel:8606740548">+012 444 6789</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon fas fa-envelope">
+                        </span>
+                        <div class="details">
+                            <p>email us</p>
+                            <a href="mailto:example@gmail.com">example@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon fas fa-share"></span>
+                        <div class="details">
+                            <p>follow us</p>
+                            <div class="social-icons">
+                                <span class="icon fab fa-twitter"></span>
+                                <span class="icon fab fa-facebook-f"></span>
+                                <span class="icon fab fa-linkedin"></span>
+                                <span class="icon fab fa-instagram"></span>
+                                <span class="icon fab fa-youtube"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="left">
+                        <div class="map">
+                            <div class="mapouter">
+                                <div class="gmap_canvas">
+                                    <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=691&amp;height=416&amp;hl=en&amp;q=burger king&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                                    <a href="https://www.fnfgo.com/">Friday Night Funkin Mods</a>
+                                </div>
+                                <style>.mapouter{position:relative;text-align:right;width:100%;height:416px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:416px;}.gmap_iframe {height:416px!important;}</style>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <form action="">
+                            <input type="text" placeholder="your name">
+                            <input type="email" placeholder="your email">
+                            <input type="text" placeholder="subject">
+                            <textarea name="" id="" cols="15" rows="10" placeholder="message"></textarea>
+                            <button type="submit">send message</button>
+                        </form>
+                    </div>
+                </div>
+            </section><!-- ( #contact > .wrapper) -->
+        </section><!-- ( #contact ) -->
+
+        <section id="blog">
+            <section class="wrapper">
+                <div class="top">
+                    <span>food blog</span>
+                    <h3>latest from food blog</h3>
+                </div>
+                <div class="bottom">
+                    <div class="article-item">
+                        <div class='img-container'>
+                            <img src="./images/blog-1.jpg" alt="Image" />
+                        </div>
+                        <div class="blog-content">
+                            <h3>lorem Ipsum dolor sit amet</h3>
+                            <div class="author-details">
+                                <span><i class="far fa-user"></i>admin</span>
+                                <span><i class="far fa-list-alt"></i>food</span>
+                                <span><i class="fas fa-calendar-week"></i>01-Jan-2045</span>
+                                <span><i class="far fa-comments"></i>10</span>
+                            </div>
+                            <p>lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga facilis ex, aliquam minus tenetur odit? Nostrum possimus.</p>
+                            <div class="button">read more</div>
+                        </div>
+                    </div>
+                    <div class="article-item">
+                        <div class='img-container'>
+                            <img src="./images/blog-2.jpg" alt="Image" />
+                        </div>
+                        <div class="blog-content">
+                            <h3>lorem Ipsum dolor sit amet</h3>
+                            <div class="author-details">
+                                <span>
+                                    <i class="far fa-user"></i>
+                                    admin
+                                </span>
+                                <span>
+                                    <i class="far fa-list-alt"></i>
+                                    food
+                                </span>
+                                <span>
+                                    <i class="fas fa-calendar-week"></i>
+                                    01-Jan-2045
+                                </span>
+                                <span>
+                                    <i class="far fa-comments"></i>
+                                    10
+                                </span>
+                            </div>
+                            <p>lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga facilis ex, aliquam minus tenetur odit? Nostrum possimus.</p>
+                            <div class="button">read more</div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- ( #blog > .wrapper ) -->
+        </section><!-- ( #blog ) -->
+
+        <section id="address">
+            <section class="wrapper">
+                <div class="address-container">
+                    <div class="item">
+                        <h3>our address</h3>
+                        <div class="connect">
+                            <span>
+                                <i class="fas fa-map-marker"></i>
+                                123  Street,NY,USA</span>
+                            <a href="tel:+120 433 6789">
+                                <i class="fas fa-phone-alt"></i>
+                                +120 433 6789</a>
+                            <a href="mailto:info@example.com">
+                                <i class="fas fa-envelope"></i>
+                                info@example.com</a>
+                        </div>
+                        <div class="social-icons">
+                            <span class="icon fab fa-twitter"></span>
+                            <span class="icon fab fa-facebook-f"></span>
+                            <span class="icon fab fa-linkedin"></span>
+                            <span class="icon fab fa-instagram"></span>
+                            <span class="icon fab fa-youtube"></span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>quik links</h3>
+                        <div class="connect">
+                            <span>
+                                <i class="fas fa-chevron-right"></i>
+                                terms of use</span>
+                            <span>
+                                <i class="fas fa-chevron-right"></i>
+                                privacy policy</span>
+                            <span>
+                                <i class="fas fa-chevron-right"></i>
+                                cookies</span>
+                            <span>
+                                <i class="fas fa-chevron-right"></i>
+                                help</span>
+                            <span>
+                                <i class="fas fa-chevron-right"></i>
+                                fqa's</span>
+                         </div>
+                    </div>
+                    <div class="item">
+                        <h3>newsLetter</h3>
+                        <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ipsum quas ipsam explicabo nihil sint.</p>
+                        <form action="">
+                            <input type="email" placeholder="Email Goes Here">
+                            <button type="button">submit</button>
+                        </form>
+                    </div>
+                </div>
+            </section><!-- ( #address > .wrapper ) -->
+        </section><!-- ( #address ) -->
+
+        <footer>
+            <section class="wrapper">
+                <div class="content">
+                    <p>copyRight&copy; <span>your site name </span>all right reserved & designed by <span>html code</span></p>
+                </div>
+            </section>
+        </footer>
+	</body>
+</html>
